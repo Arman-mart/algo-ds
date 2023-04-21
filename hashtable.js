@@ -98,9 +98,7 @@ class HashTable{
 
             this.keys[i] = null;
             this.vals[i] = null;
-
             this.n--;
-
             this.put(keyToRefresh, valToRefresh);
             i = (i + 1) % this.m;
         }
