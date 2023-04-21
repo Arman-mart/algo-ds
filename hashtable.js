@@ -46,7 +46,7 @@ class HashTable{
         this.vals = tmp.vals;
         this.m = tmp.m;
 
-        console.log('Current hashMap => ', this);
+        console.log('Current hashMap =>', this);
     }
 
     put(key,value){
