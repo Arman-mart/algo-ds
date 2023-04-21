@@ -12,7 +12,6 @@ class HashTable{
         }
     }
 
-
     size(){
         return this.n;
     }
@@ -82,7 +81,7 @@ class HashTable{
     }
 
     delete(key) {
-        if (key == null) return new Error("Key is null");
+        if (key == null) return new Error('Key is null');
         if (this.contains(key) == false) return;
         let i = this.hash(key);
         while(key !== this.keys[i]){
@@ -109,5 +108,4 @@ class HashTable{
         this.n--;
         if(this.n > 0 && this.n <= this.m / 8) this.resize(this.m / 2);
     }
-
 }
