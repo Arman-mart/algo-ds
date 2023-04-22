@@ -104,6 +104,8 @@ class HashTable{
         }
 
         this.n--;
-        if(this.n > 0 && this.n <= this.m / 8) this.resize(this.m / 2);
+        if (this.n > 0 && this.n <= this.m / 8) {
+            this.resize(this.m / 2);
+        }
     }
 }
