@@ -32,9 +32,4 @@ class Stack{
         this.n--;
         return oldFirst.value;
     }
-
 }
-
-let a = new Stack();
-
-console.log(a)

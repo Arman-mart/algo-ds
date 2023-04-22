@@ -109,3 +109,5 @@ class HashTable{
         }
     }
 }
+
+console.log('a');
